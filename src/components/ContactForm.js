@@ -21,7 +21,7 @@ class ContactForm extends React.Component {
             />
           </FormGroup>
           <FormGroup>
-            <Label for="FirstName">Last Name:</Label>
+            <Label for="LastName">Last Name:</Label>
             <Input
               id="LastName"
               type="text"
@@ -30,7 +30,7 @@ class ContactForm extends React.Component {
             />
           </FormGroup>
           <FormGroup>
-            <Label for="examplePassword">Email:</Label>
+            <Label for="Email">Email:</Label>
             <Input
               id="Email"
               type="email"
