@@ -6,6 +6,7 @@
 #Price-Table th {
   background-color: #fba858;
   color: #ffffff;
+  border-bottom: none;
 }
 
 #Price-Table td {
