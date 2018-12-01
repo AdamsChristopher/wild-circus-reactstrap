@@ -8,7 +8,7 @@ const AboutUs = () => {
   return (
     <div
       id="About-Us"
-      className="mt-4"
+      className="my-4"
     >
       <h2 className="text-center">About Us</h2>
       <Bio />

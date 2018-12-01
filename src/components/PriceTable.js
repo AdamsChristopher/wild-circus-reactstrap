@@ -7,7 +7,7 @@ const PriceTable = () => {
   return (
     <Container
       id="Price-Table"
-      className="mt-4"
+      className="my-4"
     >
       <Row>
         <Col

@@ -9,7 +9,7 @@ const Prices = () => {
   return (
     <Container
       id="Prices"
-      className="mt-4"
+      className="my-4"
     >
       <h2 className="text-center">Prices</h2>
       <PriceTable />

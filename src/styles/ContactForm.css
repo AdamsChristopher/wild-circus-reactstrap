@@ -1,6 +1,15 @@
 #Contact-Form {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#Contact-Form input, #Message {
+  border:1px solid #B1AEAE;
+}
+
+#Contact-Form input:focus, #Message:focus {
+  border:1px solid #FBA858;
+  box-shadow: 0 0 10px #FBA858;
 }
 
 #Contact-Form #Button {
