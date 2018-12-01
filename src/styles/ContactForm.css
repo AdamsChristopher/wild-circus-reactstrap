@@ -4,10 +4,10 @@
 }
 
 #Contact-Form #Button {
-  transition: background 0.5s ease;
-  transition: color 0.5s ease;
   background:  #FBA858;
   border-style: none;
+  transition: color 0.5s ease;
+  transition: background 0.5s ease;
 }
 
 #Contact-Form #Button:hover {

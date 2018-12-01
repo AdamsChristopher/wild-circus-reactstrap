@@ -6,11 +6,22 @@
 }
 
 #Header-Nav a {
-  transition: color 0.5s ease;
   color: #FFFFFF;
+  transition: color 0.5s ease;
 }
 
 #Header-Nav a:hover {
   color: #B1AEAE;
   cursor: pointer;
+}
+
+#Header-Nav button.navbar-toggler {
+  border-color: #FFFFFF;
+  border-width: 1px;
+  transition: border-color 0.5s ease;
+}
+
+#Header-Nav button.navbar-toggler:hover {
+  border-color: #B1AEAE;
+  border-width: 1px;
 }

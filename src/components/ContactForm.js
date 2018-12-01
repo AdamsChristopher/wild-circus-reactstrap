@@ -7,9 +7,10 @@ class ContactForm extends React.Component {
   render() {
     return (
       <Container
+        id="Contact-Form"
         className="clearfix mt-4"
       >
-        <Form id="Contact-Form">
+        <Form>
           <FormGroup>
             <Label for="FirstName">First Name:</Label>
             <Input

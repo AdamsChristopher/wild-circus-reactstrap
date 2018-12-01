@@ -7,6 +7,7 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
+import { NavLink as RouterNavLink } from 'react-router-dom';
 
 import '../styles/HeaderNav.css';
 
@@ -39,22 +40,34 @@ export default class Example extends React.Component {
               navbar
             >
               <NavItem>
-                <NavLink>
+                <NavLink
+                  tag={RouterNavLink}
+                  to='/'
+                >
                   Performances
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink>
+                <NavLink
+                  tag={RouterNavLink}
+                  to='/prices'
+                >
                   Prices
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink>
+                <NavLink
+                  tag={RouterNavLink}
+                  to='/about'
+                >
                   About Us
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink>
+                <NavLink
+                  tag={RouterNavLink}
+                  to='/contact'
+                >
                   Contact
                 </NavLink>
               </NavItem>
