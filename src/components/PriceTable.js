@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, Table } from 'reactstrap';
 
 import '../styles/PriceTable.css';
 
@@ -13,7 +13,10 @@ const PriceTable = () => {
         <Col
           xs="12"
         >
-          <table className="mx-auto">
+          <Table
+            className="mx-auto"
+            responsive
+          >
             <thead>
               <tr>
                 <th></th>
@@ -43,7 +46,7 @@ const PriceTable = () => {
                 <td className="text-center">$5</td>
               </tr>
             </tbody>
-          </table>
+          </Table>
         </Col>
       </Row>
     </Container>
