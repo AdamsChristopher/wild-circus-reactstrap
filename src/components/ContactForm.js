@@ -1,15 +1,13 @@
 import React from 'react';
 import { Container, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
-const formStyle = { paddingLeft: '15%', paddingRight: '15%' }
-const buttonStyle = { background: '#FBA858', border: 'none' }
+import '../styles/ContactForm.css';
 
 class ContactForm extends React.Component {
   render() {
     return (
       <Container
         className="clearfix mt-4"
-        style={formStyle}
       >
         <Form id="Contact-Form">
           <FormGroup>
@@ -49,9 +47,8 @@ class ContactForm extends React.Component {
             />
           </FormGroup>
           <Button
-            id="Piece-Of-Shit-Button"
+            id="Button"
             className="float-right"
-            style={buttonStyle}
           >
             Send
           </Button>

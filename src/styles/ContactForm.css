@@ -3,6 +3,14 @@
   padding-right: 15%;
 }
 
-#Contact-Form #Piece-Of-Shit-Button {
-  background: #FBA858;
+#Contact-Form #Button {
+  transition: background 0.5s ease;
+  transition: color 0.5s ease;
+  background:  #FBA858;
+  border-style: none;
+}
+
+#Contact-Form #Button:hover {
+  color: #B1AEAE;
+  background: #FBB776;
 }
