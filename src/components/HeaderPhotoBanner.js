@@ -1,0 +1,19 @@
+import React from 'react';
+
+const HeaderPhotoBanner = () => {
+  return (
+    <div
+      id="Header-Photo"
+      className=""
+    >
+      <img
+        src="https://reho.st/self/b32ab59fa3c9365b0ce03c8f855905115afb0170.jpg"
+        alt="Circus Skyline"
+        className="img-fluid"
+      >
+      </img>
+    </div>
+  )
+}
+
+export default HeaderPhotoBanner;

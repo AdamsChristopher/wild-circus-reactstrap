@@ -1,0 +1,15 @@
+#Header-Nav {
+  font-family: Amatic SC, Helvetica, sans-serif;
+  font-size: 2em;
+  color: #FFFFFF;
+  background: #FBA858;
+}
+
+#Header-Nav a {
+  color: #FFFFFF;
+}
+
+#Header-Nav a:hover {
+  color: #B1AEAE;
+  cursor: pointer;
+}
