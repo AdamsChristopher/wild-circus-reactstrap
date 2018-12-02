@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div
       id="Footer"
-      className="py-3 mt-4"
+      className="position-absolute w-100 py-3 mt-4"
     >
       <p className="text-center mb-0">Wild Circus made with <span id="Heart">♥</span> by Me</p>
     </div>
