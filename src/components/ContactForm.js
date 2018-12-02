@@ -1,16 +1,28 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Container, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 import '../styles/ContactForm.css';
 
-class ContactForm extends React.Component {
-  render() {
+class ContactForm extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleSubmit(event) {
+    event.preventDefault();
+  }
+
+  render() {   
     return (
       <Container
         id="Contact-Form"
         className="flex-grow-1 clearfix my-5"
       >
-        <Form>
+        <Form onSubmit={this.handleSubmit}>
           <FormGroup>
             <Label for="FirstName">First Name:</Label>
             <Input
