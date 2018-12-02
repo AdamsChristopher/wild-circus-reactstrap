@@ -5,6 +5,7 @@
 
 #Contact-Form input, #Message {
   border:1px solid #B1AEAE;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
 }
 
 #Contact-Form input:focus, #Message:focus {
@@ -22,4 +23,8 @@
 #Contact-Form #Button:hover {
   color: #B1AEAE;
   background: #FBB776;
+}
+
+#Contact-Form #Button:focus {
+  box-shadow: 0 0 10px #FBA858;
 }
