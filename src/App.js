@@ -13,8 +13,11 @@ import Footer from './components/Footer';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter className="App">
-        <div>
+      <BrowserRouter>
+        <div 
+          id="App"
+          className="d-flex flex-column"
+        >
           <HeaderTop />
           <HeaderPhotoBanner />
           <HeaderNav />

@@ -7,7 +7,7 @@ const Bio = () => {
   return (
     <Container
       id="Bio"
-      className="flex-grow-1 my-5"
+      className="my-5"
     >
       <Row>
         <Col xs="12">

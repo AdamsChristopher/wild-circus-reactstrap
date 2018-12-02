@@ -20,7 +20,7 @@ class ContactForm extends Component {
     return (
       <Container
         id="Contact-Form"
-        className="flex-grow-1 clearfix my-5"
+        className="clearfix my-5"
       >
         <Form onSubmit={this.handleSubmit}>
           <FormGroup>
