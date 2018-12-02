@@ -8,7 +8,7 @@ class ContactForm extends React.Component {
     return (
       <Container
         id="Contact-Form"
-        className="clearfix my-4"
+        className="clearfix my-5"
       >
         <Form>
           <FormGroup>

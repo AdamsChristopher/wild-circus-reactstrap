@@ -7,7 +7,7 @@ const LaughMarvelDream = () => {
   return (
     <Container
       id="Laugh-Marvel-Dream"
-      className="my-4"
+      className="my-5"
     >
       <Row>
         <Col

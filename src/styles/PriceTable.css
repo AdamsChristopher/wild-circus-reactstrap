@@ -4,6 +4,7 @@
 }
 
 #Price-Table th {
+  border-bottom: none;
   background-color: #fba858;
   color: #ffffff;
 }
