@@ -8,7 +8,7 @@ const Performances = () => {
   return (
     <div
       id="Performances"
-      className="my-5"
+      className="d-flex flex-column my-5"
     >
       <h2 className="text-center">Performances</h2>
       <LaughMarvelDream />
