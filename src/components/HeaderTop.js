@@ -6,7 +6,7 @@ const HeaderTop = () => {
   return (
     <div
       id="Header-Top"
-      className="py-4"
+      className="py-2"
     >
       <h1 className="text-center">WILD CIRCUS</h1>
     </div>
