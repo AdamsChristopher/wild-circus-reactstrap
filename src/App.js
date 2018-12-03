@@ -10,11 +10,13 @@ import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 
+import './App.css';
+
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div 
+        <div
           id="App"
           className="d-flex flex-column"
         >

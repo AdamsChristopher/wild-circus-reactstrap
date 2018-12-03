@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {
   Collapse,
   Navbar,
@@ -11,20 +11,21 @@ import { NavLink as RouterNavLink } from 'react-router-dom';
 
 import '../styles/HeaderNav.css';
 
-export default class Example extends React.Component {
+class HeaderNav extends Component {
   constructor(props) {
     super(props);
-
-    this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false
     };
+    this.toggle = this.toggle.bind(this);
   }
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
     });
   }
+
   render() {
     return (
       <div id="Header-Nav">
@@ -78,3 +79,5 @@ export default class Example extends React.Component {
     );
   }
 }
+
+export default HeaderNav;

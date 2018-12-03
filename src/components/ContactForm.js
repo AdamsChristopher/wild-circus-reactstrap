@@ -8,7 +8,7 @@ class ContactForm extends Component {
     super(props);
     this.state = {
 
-    }
+    };
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
@@ -16,7 +16,7 @@ class ContactForm extends Component {
     event.preventDefault();
   }
 
-  render() {   
+  render() {
     return (
       <Container
         id="Contact-Form"
