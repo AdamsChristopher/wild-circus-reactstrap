@@ -1,3 +1,9 @@
+#Contact-Form .Card-Body {
+  background: #58C4b8;
+  border-radius: 4px;
+  padding: 10px 20px 50px;
+}
+
 #Contact-Form {
   padding-left: 15%;
   padding-right: 15%;
@@ -9,8 +15,8 @@
 }
 
 #Contact-Form input:focus, #Message:focus {
-  border:1px solid #FBA858;
-  box-shadow: 0 0 10px #FBA858;
+  border:1px solid #000000;
+  box-shadow: 0 0 5px #000000;
 }
 
 #Contact-Form #Button {
