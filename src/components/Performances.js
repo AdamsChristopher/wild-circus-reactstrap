@@ -8,7 +8,7 @@ const Performances = () => {
   return (
     <div
       id="Performances"
-      className="flex-grow-1 my-5"
+      className="page flex-grow-1 my-5"
     >
       <h2 className="text-center">Performances</h2>
       <LaughMarvelDream />

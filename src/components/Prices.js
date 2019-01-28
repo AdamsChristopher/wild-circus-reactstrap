@@ -9,7 +9,7 @@ const Prices = () => {
   return (
     <Container
       id="Prices"
-      className="flex-grow-1 my-5"
+      className="page flex-grow-1 my-5"
     >
       <h2 className="text-center">Prices</h2>
       <PriceTable />

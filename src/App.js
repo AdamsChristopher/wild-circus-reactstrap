@@ -1,5 +1,13 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import {
+  BrowserRouter,
+  Route,
+  Switch
+} from 'react-router-dom';
+import {
+  CSSTransition,
+  TransitionGroup
+} from 'react-transition-group';
 
 import HeaderTop from './components/HeaderTop';
 import HeaderPhotoBanner from './components/HeaderPhotoBanner';
@@ -23,28 +31,38 @@ class App extends Component {
           <HeaderTop />
           <HeaderPhotoBanner />
           <HeaderNav />
-          <Switch>
-            <Route
-              path='/'
-              component={Performances}
-              exact
-            />
-            <Route
-              path='/prices'
-              component={Prices}
-              exact
-            />
-            <Route
-              path='/about'
-              component={AboutUs}
-              exact
-            />
-            <Route
-              path='/contact'
-              component={ContactUs}
-              exact
-            />
-          </Switch>
+          <Route render={({ location }) => (
+            <TransitionGroup>
+              <CSSTransition
+                key={location.key}
+                classNames="fade"
+                timeout={450}
+              >
+                <Switch location={location}>
+                  <Route
+                    path='/'
+                    component={Performances}
+                    exact
+                  />
+                  <Route
+                    path='/prices'
+                    component={Prices}
+                    exact
+                  />
+                  <Route
+                    path='/about'
+                    component={AboutUs}
+                    exact
+                  />
+                  <Route
+                    path='/contact'
+                    component={ContactUs}
+                    exact
+                  />
+                </Switch>
+              </CSSTransition>
+            </TransitionGroup>
+          )} />
           <Footer />
         </div>
       </BrowserRouter >
