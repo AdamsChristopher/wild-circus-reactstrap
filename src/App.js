@@ -38,7 +38,7 @@ class App extends Component {
                 <CSSTransition
                   key={location.key}
                   classNames="fade"
-                  timeout={450}
+                  timeout={350}
                 >
                   <Switch location={location}>
                     <Route
