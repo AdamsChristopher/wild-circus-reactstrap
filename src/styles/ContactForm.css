@@ -9,11 +9,6 @@
   padding-right: 15%;
 }
 
-#Contact-Form input, #Message {
-  border:1px solid #B1AEAE;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
-}
-
 #Contact-Form input:focus, #Message:focus {
   border:1px solid #000000;
   box-shadow: 0 0 5px #000000;
