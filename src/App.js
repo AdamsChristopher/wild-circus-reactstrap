@@ -9,6 +9,7 @@ import {
   TransitionGroup
 } from 'react-transition-group';
 
+import ScrollToTop from './components/scrollToTop/ScrollToTop';
 import HeaderTop from './components/header/HeaderTop';
 import HeaderPhotoBanner from './components//header/HeaderPhotoBanner';
 import HeaderNav from './components/header/HeaderNav';
@@ -24,14 +25,15 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div
-          id="App"
-          className="d-flex flex-column"
-        >
-          <HeaderTop />
-          <HeaderPhotoBanner />
-          <HeaderNav />
-          <Route render={({ location }) => (
+        <ScrollToTop>
+          <div
+            id="App"
+            className="d-flex flex-column"
+          >
+            <HeaderTop />
+            <HeaderPhotoBanner />
+            <HeaderNav />
+            <Route render={({ location }) => (
               <TransitionGroup>
                 <CSSTransition
                   key={location.key}
@@ -62,9 +64,10 @@ class App extends Component {
                   </Switch>
                 </CSSTransition>
               </TransitionGroup>
-          )} />
-          <Footer />
-        </div>
+            )} />
+            <Footer />
+          </div>
+        </ScrollToTop>
       </BrowserRouter >
     );
   }

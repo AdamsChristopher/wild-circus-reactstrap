@@ -8,7 +8,7 @@ const AboutUs = () => {
   return (
     <div
       id="About-Us"
-      className="page flex-grow-1"
+      className="flex-grow-1"
     >
       <h2 className="text-center">About Us</h2>
       <Bio />

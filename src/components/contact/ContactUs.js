@@ -8,7 +8,7 @@ const ContactUs = () => {
   return (
     <div
       id="Contact-Us"
-      className="page flex-grow-1 my-5"
+      className="flex-grow-1"
     >
       <h2 className="text-center">Contact Us</h2>
       <ContactForm />
