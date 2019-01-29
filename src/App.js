@@ -9,14 +9,14 @@ import {
   TransitionGroup
 } from 'react-transition-group';
 
-import HeaderTop from './components/HeaderTop';
-import HeaderPhotoBanner from './components/HeaderPhotoBanner';
-import HeaderNav from './components/HeaderNav';
-import Performances from './components/Performances';
-import Prices from './components/Prices';
-import AboutUs from './components/AboutUs';
-import ContactUs from './components/ContactUs';
-import Footer from './components/Footer';
+import HeaderTop from './components/header/HeaderTop';
+import HeaderPhotoBanner from './components//header/HeaderPhotoBanner';
+import HeaderNav from './components/header/HeaderNav';
+import Performances from './components/performances/Performances';
+import Prices from './components/prices/Prices';
+import AboutUs from './components/about/AboutUs';
+import ContactUs from './components/contact/ContactUs';
+import Footer from './components//footer/Footer';
 
 import './App.css';
 
@@ -32,36 +32,36 @@ class App extends Component {
           <HeaderPhotoBanner />
           <HeaderNav />
           <Route render={({ location }) => (
-            <TransitionGroup>
-              <CSSTransition
-                key={location.key}
-                classNames="fade"
-                timeout={450}
-              >
-                <Switch location={location}>
-                  <Route
-                    path='/'
-                    component={Performances}
-                    exact
-                  />
-                  <Route
-                    path='/prices'
-                    component={Prices}
-                    exact
-                  />
-                  <Route
-                    path='/about'
-                    component={AboutUs}
-                    exact
-                  />
-                  <Route
-                    path='/contact'
-                    component={ContactUs}
-                    exact
-                  />
-                </Switch>
-              </CSSTransition>
-            </TransitionGroup>
+              <TransitionGroup>
+                <CSSTransition
+                  key={location.key}
+                  classNames="fade"
+                  timeout={450}
+                >
+                  <Switch location={location}>
+                    <Route
+                      path='/'
+                      component={Performances}
+                      exact
+                    />
+                    <Route
+                      path='/prices'
+                      component={Prices}
+                      exact
+                    />
+                    <Route
+                      path='/about'
+                      component={AboutUs}
+                      exact
+                    />
+                    <Route
+                      path='/contact'
+                      component={ContactUs}
+                      exact
+                    />
+                  </Switch>
+                </CSSTransition>
+              </TransitionGroup>
           )} />
           <Footer />
         </div>

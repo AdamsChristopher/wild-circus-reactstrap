@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/HeaderPhotoBanner.css';
+import '../../styles/HeaderPhotoBanner.css';
 
 const HeaderPhotoBanner = () => {
   return (

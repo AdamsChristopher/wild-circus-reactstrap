@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Table } from 'reactstrap';
 
-import '../styles/PriceTable.css';
+import '../../styles/PriceTable.css';
 
 const PriceTable = () => {
   return (

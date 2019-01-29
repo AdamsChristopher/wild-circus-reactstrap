@@ -3,7 +3,7 @@ import { Container } from 'reactstrap';
 
 import PriceTable from './PriceTable';
 
-import '../styles/Prices.css';
+import '../../styles/Prices.css';
 
 const Prices = () => {
   return (

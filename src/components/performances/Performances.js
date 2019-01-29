@@ -2,7 +2,7 @@ import React from 'react';
 
 import LaughMarvelDream from './LaughMarvelDream';
 
-import '../styles/Performances.css';
+import '../../styles/Performances.css';
 
 const Performances = () => {
   return (

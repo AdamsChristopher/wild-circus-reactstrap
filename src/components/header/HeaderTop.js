@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/HeaderTop.css';
+import '../../styles/HeaderTop.css';
 
 const HeaderTop = () => {
   return (

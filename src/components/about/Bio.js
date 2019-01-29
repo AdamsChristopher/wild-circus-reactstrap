@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
-import '../styles/Bio.css';
+import '../../styles/Bio.css';
 
 const Bio = () => {
   return (

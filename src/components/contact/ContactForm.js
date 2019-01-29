@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, CardBody, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
-import '../styles/ContactForm.css';
+import '../../styles/ContactForm.css';
 
 class ContactForm extends Component {
   constructor(props) {

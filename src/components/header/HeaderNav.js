@@ -9,7 +9,7 @@ import {
 } from 'reactstrap';
 import { NavLink as RouterNavLink } from 'react-router-dom';
 
-import '../styles/HeaderNav.css';
+import '../../styles/HeaderNav.css';
 
 class HeaderNav extends Component {
   constructor(props) {

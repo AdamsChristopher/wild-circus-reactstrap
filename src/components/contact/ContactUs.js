@@ -2,7 +2,7 @@ import React from 'react';
 
 import ContactForm from './ContactForm';
 
-import '../styles/ContactUs.css';
+import '../../styles/ContactUs.css';
 
 const ContactUs = () => {
   return (
