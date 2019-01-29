@@ -42,7 +42,7 @@ class App extends Component {
                 >
                   <Switch location={location}>
                     <Route
-                      path='/'
+                      path exact='/'
                       component={Performances}
                       exact
                     />
