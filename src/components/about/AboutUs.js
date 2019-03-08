@@ -6,10 +6,7 @@ import '../../styles/AboutUs.css';
 
 const AboutUs = () => {
   return (
-    <div
-      id="About-Us"
-      className="flex-grow-1"
-    >
+    <div id="About-Us">
       <h2 className="text-center">About Us</h2>
       <Bio />
     </div>

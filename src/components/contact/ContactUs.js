@@ -6,10 +6,7 @@ import '../../styles/ContactUs.css';
 
 const ContactUs = () => {
   return (
-    <div
-      id="Contact-Us"
-      className="flex-grow-1"
-    >
+    <div id="Contact-Us">
       <h2 className="text-center">Contact Us</h2>
       <ContactForm />
     </div>

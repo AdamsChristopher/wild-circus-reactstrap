@@ -7,10 +7,7 @@ import '../../styles/Prices.css';
 
 const Prices = () => {
   return (
-    <Container
-      id="Prices"
-      className="flex-grow-1"
-    >
+    <Container id="Prices">
       <h2 className="text-center">Prices</h2>
       <PriceTable />
     </Container>

@@ -2,14 +2,6 @@
   height: 100vh;
 }
 
-/* .page {
-  position: absolute;
-  top: 500px;
-  left: 0;
-  right: 0;
-}
-*/
-
 .fade-appear,
 .fade-enter {
   opacity: 0;

@@ -34,7 +34,7 @@ class App extends Component {
             <HeaderPhotoBanner />
             <HeaderNav />
             <Route render={({ location }) => (
-              <TransitionGroup>
+              <TransitionGroup className="flex-grow-1">
                 <CSSTransition
                   key={location.key}
                   classNames="fade"
